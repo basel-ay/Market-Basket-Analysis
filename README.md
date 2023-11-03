@@ -2,11 +2,13 @@
 
 Market Basket Analysis is one of the key techniques used by large retailers to uncover associations between items. It works by looking for combinations of items that occur together frequently in transactions. To put it another way, it allows retailers to identify relationships between the items that people buy.
 
-![image](https://github.com/basel-ay/Market-Basket-Analysis/assets/64821137/6806ec1d-64c3-4743-aa25-9b07f52d36e3)
+![image](https://github.com/basel-ay/Market-Basket-Analysis/assets/64821137/94b2b662-9c9f-44cd-bc66-c13fa5042bce)
 
 Association Rules are widely used to analyze retail basket or transaction data and are intended to identify strong rules discovered in transaction data using measures of interestingness, based on the concept of strong rules.
 
-![image](https://github.com/basel-ay/Market-Basket-Analysis/assets/64821137/370a1d00-65d7-437c-9a80-1e73b1a062b9)
+<p align="center">
+  <img src="https://github.com/basel-ay/Market-Basket-Analysis/assets/64821137/52e8e93a-6ac5-4c26-9504-825286b1b5c6"/>
+</p>
 
 An example of Association Rules, assume there are 100 customers
 
@@ -28,6 +30,6 @@ In the above example, the {Diaper} is the antecedent and the {Beer} is the conse
 
 This analysis requires that all the data for a transaction be included in 1 row and the items should be 1-hot encoded,
 
-![image](https://github.com/basel-ay/Market-Basket-Analysis/assets/64821137/91dfcae5-e8d7-4a94-a946-7504ae216c85)
+![image](https://github.com/basel-ay/Market-Basket-Analysis/assets/64821137/45027e2d-2790-44b8-91e2-7cd15116af3f)
 
 The specific data for this article comes from the UCI Machine Learning Repository and represents transactional data from a UK retailer from 2010-2011. This mostly represents sales to wholesalers so it is slightly different from consumer purchase patterns but is still a useful case study.
